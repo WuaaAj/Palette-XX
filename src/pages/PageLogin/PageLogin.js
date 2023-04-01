@@ -12,7 +12,7 @@ function PageLogin() {
     <>
       <style>
         @import
-        url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Mr+Dafoe&display=swap');
+        url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Mr+Dafoe&display=swap&family=Quicksand:wght@300&family=Raleway:ital,wght@1,200&display=swap');
       </style>
       <div className={styles.bigBox}>
         <div className={styles.Box}>

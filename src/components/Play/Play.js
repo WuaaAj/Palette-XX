@@ -161,6 +161,7 @@ function Play(props) {
         <div className={styles.box2}>
           <Timer setTime={setTime} result={result} />
           <ColorList choices={choices} setChoices={setChoices} sEffect={sEffect}/>
+          <div style={{height:"20vh", width:"100%"}}></div>
           <div className={styles.containerRow}>
             <div className={styles.buttonBG1}>
               <ButtonBase

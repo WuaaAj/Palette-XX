@@ -78,7 +78,7 @@ function PageProfile(props) {
             <div>
               <Avatar
                 variant="square"
-                style={{height:"140px", width:"130px", margin:"155px auto 50px auto"}}
+                style={{height:"20vh", width:"10%", margin:"17vh auto 30px auto"}}
                 alt="Remy Sharp"
                 src={user.photoURL}
               />

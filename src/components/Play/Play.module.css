@@ -1,12 +1,12 @@
 .container {
   position: absolute;
-  top: 65px;
+  margin-top:10vh;
   width: 100%;
-  height: 100%;
+  height: 90vh;
 }
 
 .box {
-  height: 890px;
+  height: 100%;
   width: 100%;
   margin-bottom: 0px;
   display: grid;
@@ -17,14 +17,14 @@
 .box2 {
   height: 70%;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 5vh;
   display: grid;
   grid-template-rows: 15% 60% 7%;
   justify-content: space-around;
 }
 
 .containerRow {
-  display: flex;
+  margin-top: 40px;
   flex-direction: row;
 }
 
@@ -34,7 +34,7 @@
   border-style: solid;
   border-radius: 5px;
   border-width: 1.5px;
-  height: 100%;
+  height: 60%;
   width: 100px;
   margin-left: 65px;
   margin-right: 65px;
@@ -46,7 +46,7 @@
   border-style: solid;
   border-radius: 5px;
   border-width: 1.5px;
-  height: 100%;
+  height: 60%;
   width: 100px;
   margin-left: 65px;
   margin-right: 65px;

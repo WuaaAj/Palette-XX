@@ -1,16 +1,16 @@
 .bg {
   position: fixed; 
-  top: 65px;
-  height: 100%;
+  top: 10%;
+  height: 90%;
   width: 100%;
   background-color: #d1dbbd;
   z-index: -10;
 }
 
 .box {
-  height: 680px;
-  width: 1038px;
-  margin: 145px auto;
+  height: 75vh;
+  width: 68%;
+  margin: 17vh auto;
   display: grid;
   grid-template-columns: 30% 40% 26%;
   grid-template-rows: 62% 36%;
@@ -37,7 +37,7 @@
   color: snow;
   font-family: "Quicksand", sans-serif;
   font-size: 55px;
-  margin-top: -200px;
+  margin-top: -56%;
   z-index: 10;
 }
 
@@ -45,9 +45,9 @@
   display: block;
   color: snow;
   font-family: "Quicksand", sans-serif;
-  font-size: 45px;
+  font-size: 43px;
   z-index: 10;
-  margin-top:30px;
+  margin-top:5%;
 }
 
 .text3 {
@@ -56,6 +56,7 @@
   font-family: "Quicksand", sans-serif;
   font-size: 38px;
   z-index: 10;
+  margin-top:-1%;
 }
 
 .text4 {

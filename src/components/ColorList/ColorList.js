@@ -5,7 +5,7 @@ function ColorList(props) {
   const { choices, setChoices } = props;
 
   return (
-    <div>
+    <div >
       {choices.map((choice, index) => (
         <div className={styles.containerRow}>
           <div className={styles.color} style={choice.color.cssString}/>
@@ -15,6 +15,7 @@ function ColorList(props) {
           <p className={styles.style2}>100%</p>
         </div>
       ))}
+      <div></div>
     </div>
   );
 }

@@ -1,7 +1,8 @@
 .text {
-  float: right;
+  text-align: center;
   font-size: 25px;
   font-family: "Quicksand", sans-serif;
-  font-weight: bolder;
+  font-weight: 1000;
   color: #412619;
+  margin-bottom:10px;
 }

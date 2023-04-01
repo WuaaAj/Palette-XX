@@ -99,7 +99,7 @@ function PageMix(props) {
         <div className={styles.box}>
           <MixCurrentState current={generateMix()} />
           <div className={styles.box2}>
-            <h1 className={styles.title1}>MIX!</h1>
+            <h1 className={styles.title1}>Feel free to create your own color!</h1>
             <div className={styles.colorList}>
               <MixColorList choices={choices} setChoices={setChoices} sEffect={sEffect}/>
             </div>

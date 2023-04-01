@@ -1,6 +1,6 @@
 .bg {
   position: fixed; 
-  top: 65px;
+  top: 10%;
   height: 100%;
   width: 100%;
   background-color: #d1dbbd;
@@ -9,20 +9,18 @@
 
 .container {
   position: absolute;
-  top: 65px;
   width: 100%;
 }
 
 .title1 {
   color: #412619;
-  font-size: 75px;
+  font-size: 30px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .box {
-  min-height: 890px;
   width: 100%;
-  margin-bottom: 0px;
   display: grid;
   grid-template-columns: 30% 70%;
   grid-gap: 0px;

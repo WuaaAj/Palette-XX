@@ -17,16 +17,16 @@ function PageDifficulty(props) {
       <div className={styles.bg}></div>
       <style>
         @import
-        url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:ital,wght@1,200&display=swap');
+        url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&family=Raleway:ital,wght@1,200&display=swap');
       </style>
 
-      <h1 className={styles.title1}>Guess!</h1>
-      <h3 className={styles.title2}>Select level of difficulty:</h3>
+      <h2 className={styles.title2}>Select level of difficulty:</h2>
       <div className={styles.box}>
 
         <div className={styles.buttonBG}>
           <ButtonBase 
             className={styles.base}
+            style = {{backgroundColor:"#5DAE8B"}}
             onClick={() => {
               PlaySound();
               setTimeout(() => {
@@ -42,6 +42,7 @@ function PageDifficulty(props) {
         <div className={styles.buttonBG}>
           <ButtonBase 
             className={styles.base}
+            style = {{backgroundColor:"#F6F49D"}}
             onClick={() => {
               PlaySound();
               setTimeout(() => {
@@ -57,6 +58,7 @@ function PageDifficulty(props) {
         <div className={styles.buttonBG}>
           <ButtonBase 
             className={styles.base}
+            style = {{backgroundColor:"#FF7676"}}
             onClick={() => {
               PlaySound();
               setTimeout(() => {

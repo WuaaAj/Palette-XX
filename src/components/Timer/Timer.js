@@ -27,20 +27,15 @@ const Timer = (props) => {
   }, [isActive, seconds]);
 
   return (
-    <div>
       <div>
-        <span className={styles.text}>
+        <p className={styles.text}>
           Timer:{" "}
           <span id="time">
             &nbsp; {Math.floor(seconds / 60)}min {seconds % 60}s
           </span>
-        </span>
-      </div>
+        </p>
 
-      <div className="row">
-        <div>&nbsp;</div>
       </div>
-    </div>
   );
 };
 
